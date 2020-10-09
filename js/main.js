@@ -1,3 +1,3 @@
-$(document).ready(function(){
-  $('#container .solid').addClass('highlight');
+$(document).ready(function ()){
+  $('#container input[placeholder=name]').addClass('highlight');
 });
