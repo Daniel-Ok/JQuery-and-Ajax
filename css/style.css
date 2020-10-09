@@ -1,7 +1,9 @@
-.highlight{
-  color: #0FF;
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
 }
 
-.item{
-    margin-left: 8px;
+.highlight{
+    background-color: azure;
 }
