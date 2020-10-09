@@ -1,3 +1,3 @@
 $(document).ready(function(){
-  $('#fire').addClass('highlight');
+  $('#container .solid').addClass('highlight');
 });
