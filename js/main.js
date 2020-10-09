@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('box').on('click',function(){
-        $('.box').addClass('highlight');
+    $('.box').on('click',function () {
+        $(this).toggleClass('highlight');
     });
 });
