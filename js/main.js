@@ -1,3 +1,3 @@
-$ (document).ready(function () {
-  $('body').html('<strong>Hello World!</strong>');
+$(document).ready(function(){
+  $('#fire').addClass('highlight');
 });
