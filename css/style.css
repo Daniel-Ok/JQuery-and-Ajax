@@ -1,18 +1,45 @@
-.box{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+body {
+  background-color: #EEE;
 }
 
-.highlight{
-    background-color: azure;
+#container {
+  background-color: #FFF;
+  padding: 12px;
+  margin: 12px;
 }
-.box-button{
-    width: 100px;
-    height: 20px;
-    background-color: #CCF;
-    text-align: center;
-    position: relative;
-    top: 50%;
-    transform: translateY(.50)
+
+#cart-container {
+  width: 100%;
+  background-color: #000;
+  color: #FFF;
+  padding: 12px;
+}
+
+#newsletter-frequency {
+  display: none;
+}
+
+.item {
+  width: 200px;
+  background-color: #DDD;
+  padding: 8px;
+  float: left;
+  margin: 4px;
+}
+
+.item img {
+  width: 100%;
+}
+
+.item .name {
+  font-size: 24px;
+}
+
+.item .price {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.item .more-info {
+  display: none;
 }
